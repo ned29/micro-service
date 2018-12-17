@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Goods</title>
+</head>
+<body>
+<h1>Language</h1>
+<div>
+    <input action="#" th:action="@{/lang/eng}" type="button" value="English"/>
+    <input action="#" th:action="@{/lang/ukr}" type="button" value="Ukrainian"/>
+    <input type="text" th:field="*{lang}"/>
+</div>
+</body>
+</html>
